@@ -2,10 +2,12 @@
   "plugins": ["@emotion/babel-plugin"],
   "presets": [
     [
-      "@babel/preset-react",
+      "next/babel",
       {
-        "importSource": "@emotion/react",
-        "runtime": "automatic"
+        "preset-react": {
+          "importSource": "@emotion/react",
+          "runtime": "automatic"
+        }
       }
     ]
   ]
