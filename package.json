@@ -27,5 +27,8 @@
   "private": true,
   "scripts": {
     "start": "nps"
+  },
+  "engines": {
+    "node": ">=14.17.5"
   }
 }
