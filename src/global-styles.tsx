@@ -3,11 +3,11 @@ import { Global } from '@emotion/react';
 const Base = () => (
   <Global
     styles={{
-      '*': {
-        boxSizing: 'inherit',
-        MozOsxFontSmoothing: 'grayscale',
-        WebkitFontSmoothing: 'antialiased',
+      '#__next, body, html': {
+        minHeight: '100vh',
+      },
 
+      '*': {
         '&::after': {
           boxSizing: 'inherit',
         },
@@ -15,10 +15,10 @@ const Base = () => (
         '&::before': {
           boxSizing: 'inherit',
         },
-      },
 
-      '#__next, body, html': {
-        minHeight: '100vh',
+        boxSizing: 'inherit',
+        MozOsxFontSmoothing: 'grayscale',
+        WebkitFontSmoothing: 'antialiased',
       },
 
       a: {

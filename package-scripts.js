@@ -7,7 +7,7 @@ const scripts = {
 
   lint,
 
-  lintFix: `${lint} --fix`,
+  'lint-fix': `${lint} --fix`,
 
   start: 'next start',
 };
