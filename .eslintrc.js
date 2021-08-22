@@ -40,8 +40,8 @@ module.exports = {
   },
   plugins: basePlugins,
   rules: {
-    'arrow-parens': 'error',
-    'function-paren-newline': 'error',
+    'arrow-parens': 'off',
+    'function-paren-newline': 'off',
     'implicit-arrow-linebreak': 'off',
     'import/no-extraneous-dependencies': 'off',
     'import/no-unresolved': 'off',
