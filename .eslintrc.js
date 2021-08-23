@@ -39,6 +39,7 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: basePlugins,
+  root: true,
   rules: {
     'arrow-parens': 'off',
     'function-paren-newline': 'off',
