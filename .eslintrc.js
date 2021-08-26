@@ -44,6 +44,7 @@ module.exports = {
     'arrow-parens': 'off',
     'function-paren-newline': 'off',
     'implicit-arrow-linebreak': 'off',
+    'import/extensions': 'off',
     'import/no-extraneous-dependencies': 'off',
     'import/no-unresolved': 'off',
     'import/order': 'off',
