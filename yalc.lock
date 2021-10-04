@@ -1,0 +1,9 @@
+{
+  "version": "v1",
+  "packages": {
+    "@automated/automated": {
+      "signature": "e8a37b2b1feecf36eb7927d0d22dd20c",
+      "file": true
+    }
+  }
+}
