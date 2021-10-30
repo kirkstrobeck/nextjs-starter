@@ -19,6 +19,7 @@ module.exports = {
         'eslint:recommended',
         'plugin:@typescript-eslint/recommended',
         'airbnb',
+        'next/core-web-vitals',
       ],
       files: '*.ts,*.tsx',
       plugins: [...basePlugins, 'typescript-sort-keys', '@typescript-eslint'],
