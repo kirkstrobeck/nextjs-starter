@@ -1,0 +1,38 @@
+version: 2.1
+
+defaults: &defaults
+  working_directory: ~/repo
+
+  docker:
+    - image: circleci/node:14.17.5
+      auth:
+        username: $DOCKERHUB_USER
+        password: $DOCKERHUB_PASSWORD
+
+jobs:
+  build-and-test:
+    <<: *defaults
+
+    steps:
+      - checkout
+
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "package.json" }}
+            - v1-dependencies-
+
+      - run: yarn
+
+      - run: yarn nps build
+
+      - run: yarn nps test
+
+      - store_artifacts:
+          path: /coverage-from-automated
+
+workflows:
+  primary:
+    jobs:
+      - build-and-test:
+          context:
+            - production
