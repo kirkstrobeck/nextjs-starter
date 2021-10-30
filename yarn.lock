@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@automated/automated@^0.76.0":
-  version "0.76.0"
-  resolved "https://registry.yarnpkg.com/@automated/automated/-/automated-0.76.0.tgz#012d463f01ad607cb2680f3fbd86f7c950b1c213"
-  integrity sha512-IdwfLfEKzUJ2C82i+Y9Q+mZLOntgz5uPi8dP6axC74atGJEoRZnLlO/ShFDGoUk8W47Biyrh+/5ax/Eox/cHRA==
+"@automated/automated@^0.84.0":
+  version "0.84.0"
+  resolved "https://registry.yarnpkg.com/@automated/automated/-/automated-0.84.0.tgz#12ed5dbc7e6477cb9d3edf36a215273a6495ec29"
+  integrity sha512-EPWrT+N7FqCmFSc0ZZzSxGo1YnGLKvED+P95U5R2eDn21W7HTgmmxdmfvoFD/OjBFnmYRhyPEP3nrNZwGVz71g==
   dependencies:
     "@babel/core" "^7.15.0"
     "@emotion/babel-preset-css-prop" "^11.2.0"
