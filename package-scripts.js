@@ -10,6 +10,8 @@ const scripts = {
   'lint-fix': `${lint} --fix`,
 
   start: 'next start',
+
+  test: 'yarn automated jest --coverage',
 };
 
 module.exports = { scripts };
