@@ -1,61 +1,51 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`/src/components/button snapshot-test-1 1`] = `
-Array [
-  <style
-    dangerouslySetInnerHTML={
-      Object {
-        "__html": ".css-1e31kni-Base{background:blue;border:none;border-radius:10px;color:white;font-size:20px;font-weight:600;padding:20px 30px;}/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFRSSIsImZpbGUiOiJpbmRleC50c3giLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgdHlwZSBQcm9wcyA9IHtcbiAgYmFja2dyb3VuZD86IHN0cmluZztcbiAgdGV4dD86IHN0cmluZztcbiAgb25DbGljazogKGV2ZW50OiBSZWFjdC5Nb3VzZUV2ZW50KSA9PiB2b2lkO1xufTtcblxuY29uc3QgQmFzZSA9ICh7IGJhY2tncm91bmQsIHRleHQsIG9uQ2xpY2sgfTogUHJvcHMpID0+IChcbiAgPGJ1dHRvblxuICAgIGNzcz17e1xuICAgICAgYmFja2dyb3VuZDogYmFja2dyb3VuZCB8fCAnYmx1ZScsXG4gICAgICBib3JkZXI6ICdub25lJyxcbiAgICAgIGJvcmRlclJhZGl1czogMTAsXG4gICAgICBjb2xvcjogJ3doaXRlJyxcbiAgICAgIGZvbnRTaXplOiAyMCxcbiAgICAgIGZvbnRXZWlnaHQ6IDYwMCxcbiAgICAgIHBhZGRpbmc6ICcyMHB4IDMwcHgnLFxuICAgIH19XG4gICAgb25DbGljaz17b25DbGlja31cbiAgICB0eXBlPVwiYnV0dG9uXCJcbiAgPlxuICAgIHt0ZXh0IHx8ICdHZXQgc3RhcnRlZCd9XG4gIDwvYnV0dG9uPlxuKTtcblxuZXhwb3J0IGRlZmF1bHQgQmFzZTtcbiJdfQ== */",
-      }
-    }
-    data-emotion="css 1e31kni-Base"
-  />,
-  <button
-    className="css-1e31kni-Base"
-    onClick={[Function]}
-    type="button"
-  >
-    Get started
-  </button>,
-]
+<Base
+  onClick={[Function]}
+/>
 `;
 
 exports[`/src/components/button snapshot-test-2 1`] = `
-Array [
-  <style
-    dangerouslySetInnerHTML={
-      Object {
-        "__html": ".css-1e31kni-Base{background:blue;border:none;border-radius:10px;color:white;font-size:20px;font-weight:600;padding:20px 30px;}/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFRSSIsImZpbGUiOiJpbmRleC50c3giLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgdHlwZSBQcm9wcyA9IHtcbiAgYmFja2dyb3VuZD86IHN0cmluZztcbiAgdGV4dD86IHN0cmluZztcbiAgb25DbGljazogKGV2ZW50OiBSZWFjdC5Nb3VzZUV2ZW50KSA9PiB2b2lkO1xufTtcblxuY29uc3QgQmFzZSA9ICh7IGJhY2tncm91bmQsIHRleHQsIG9uQ2xpY2sgfTogUHJvcHMpID0+IChcbiAgPGJ1dHRvblxuICAgIGNzcz17e1xuICAgICAgYmFja2dyb3VuZDogYmFja2dyb3VuZCB8fCAnYmx1ZScsXG4gICAgICBib3JkZXI6ICdub25lJyxcbiAgICAgIGJvcmRlclJhZGl1czogMTAsXG4gICAgICBjb2xvcjogJ3doaXRlJyxcbiAgICAgIGZvbnRTaXplOiAyMCxcbiAgICAgIGZvbnRXZWlnaHQ6IDYwMCxcbiAgICAgIHBhZGRpbmc6ICcyMHB4IDMwcHgnLFxuICAgIH19XG4gICAgb25DbGljaz17b25DbGlja31cbiAgICB0eXBlPVwiYnV0dG9uXCJcbiAgPlxuICAgIHt0ZXh0IHx8ICdHZXQgc3RhcnRlZCd9XG4gIDwvYnV0dG9uPlxuKTtcblxuZXhwb3J0IGRlZmF1bHQgQmFzZTtcbiJdfQ== */",
-      }
-    }
-    data-emotion="css 1e31kni-Base"
-  />,
-  <button
-    className="css-1e31kni-Base"
-    onClick={[Function]}
-    type="button"
-  >
-    Hello automated
-  </button>,
-]
+"Snapshot Diff:
+- <Base onClick={[Function onClick]} />
++ <Base onClick={[Function onClick]} text=\\"Hello automated\\" />
+
+@@ -10,8 +10,8 @@
+    <button
+      className=\\"css-1e31kni-Base\\"
+      onClick={[Function onClick]}
+      type=\\"button\\"
+    >
+-     Get started
++     Hello automated
+    </button>,
+  ]"
 `;
 
 exports[`/src/components/button snapshot-test-3 1`] = `
-Array [
-  <style
-    dangerouslySetInnerHTML={
-      Object {
-        "__html": ".css-25suaw-Base{background:green;border:none;border-radius:10px;color:white;font-size:20px;font-weight:600;padding:20px 30px;}/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFRSSIsImZpbGUiOiJpbmRleC50c3giLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgdHlwZSBQcm9wcyA9IHtcbiAgYmFja2dyb3VuZD86IHN0cmluZztcbiAgdGV4dD86IHN0cmluZztcbiAgb25DbGljazogKGV2ZW50OiBSZWFjdC5Nb3VzZUV2ZW50KSA9PiB2b2lkO1xufTtcblxuY29uc3QgQmFzZSA9ICh7IGJhY2tncm91bmQsIHRleHQsIG9uQ2xpY2sgfTogUHJvcHMpID0+IChcbiAgPGJ1dHRvblxuICAgIGNzcz17e1xuICAgICAgYmFja2dyb3VuZDogYmFja2dyb3VuZCB8fCAnYmx1ZScsXG4gICAgICBib3JkZXI6ICdub25lJyxcbiAgICAgIGJvcmRlclJhZGl1czogMTAsXG4gICAgICBjb2xvcjogJ3doaXRlJyxcbiAgICAgIGZvbnRTaXplOiAyMCxcbiAgICAgIGZvbnRXZWlnaHQ6IDYwMCxcbiAgICAgIHBhZGRpbmc6ICcyMHB4IDMwcHgnLFxuICAgIH19XG4gICAgb25DbGljaz17b25DbGlja31cbiAgICB0eXBlPVwiYnV0dG9uXCJcbiAgPlxuICAgIHt0ZXh0IHx8ICdHZXQgc3RhcnRlZCd9XG4gIDwvYnV0dG9uPlxuKTtcblxuZXhwb3J0IGRlZmF1bHQgQmFzZTtcbiJdfQ== */",
+"Snapshot Diff:
+- <Base onClick={[Function onClick]} />
++ <Base background=\\"green\\" onClick={[Function onClick]} />
+
+@@ -1,16 +1,16 @@
+  Array [
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+-         \\"__html\\": \\".css-1e31kni-Base{background:blue;border:none;border-radius:10px;color:white;font-size:20px;font-weight:600;padding:20px 30px;}/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFRSSIsImZpbGUiOiJpbmRleC50c3giLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgdHlwZSBQcm9wcyA9IHtcbiAgYmFja2dyb3VuZD86IHN0cmluZztcbiAgdGV4dD86IHN0cmluZztcbiAgb25DbGljazogKGV2ZW50OiBSZWFjdC5Nb3VzZUV2ZW50KSA9PiB2b2lkO1xufTtcblxuY29uc3QgQmFzZSA9ICh7IGJhY2tncm91bmQsIHRleHQsIG9uQ2xpY2sgfTogUHJvcHMpID0+IChcbiAgPGJ1dHRvblxuICAgIGNzcz17e1xuICAgICAgYmFja2dyb3VuZDogYmFja2dyb3VuZCB8fCAnYmx1ZScsXG4gICAgICBib3JkZXI6ICdub25lJyxcbiAgICAgIGJvcmRlclJhZGl1czogMTAsXG4gICAgICBjb2xvcjogJ3doaXRlJyxcbiAgICAgIGZvbnRTaXplOiAyMCxcbiAgICAgIGZvbnRXZWlnaHQ6IDYwMCxcbiAgICAgIHBhZGRpbmc6ICcyMHB4IDMwcHgnLFxuICAgIH19XG4gICAgb25DbGljaz17b25DbGlja31cbiAgICB0eXBlPVwiYnV0dG9uXCJcbiAgPlxuICAgIHt0ZXh0IHx8ICdHZXQgc3RhcnRlZCd9XG4gIDwvYnV0dG9uPlxuKTtcblxuZXhwb3J0IGRlZmF1bHQgQmFzZTtcbiJdfQ== */\\",
++         \\"__html\\": \\".css-25suaw-Base{background:green;border:none;border-radius:10px;color:white;font-size:20px;font-weight:600;padding:20px 30px;}/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFRSSIsImZpbGUiOiJpbmRleC50c3giLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgdHlwZSBQcm9wcyA9IHtcbiAgYmFja2dyb3VuZD86IHN0cmluZztcbiAgdGV4dD86IHN0cmluZztcbiAgb25DbGljazogKGV2ZW50OiBSZWFjdC5Nb3VzZUV2ZW50KSA9PiB2b2lkO1xufTtcblxuY29uc3QgQmFzZSA9ICh7IGJhY2tncm91bmQsIHRleHQsIG9uQ2xpY2sgfTogUHJvcHMpID0+IChcbiAgPGJ1dHRvblxuICAgIGNzcz17e1xuICAgICAgYmFja2dyb3VuZDogYmFja2dyb3VuZCB8fCAnYmx1ZScsXG4gICAgICBib3JkZXI6ICdub25lJyxcbiAgICAgIGJvcmRlclJhZGl1czogMTAsXG4gICAgICBjb2xvcjogJ3doaXRlJyxcbiAgICAgIGZvbnRTaXplOiAyMCxcbiAgICAgIGZvbnRXZWlnaHQ6IDYwMCxcbiAgICAgIHBhZGRpbmc6ICcyMHB4IDMwcHgnLFxuICAgIH19XG4gICAgb25DbGljaz17b25DbGlja31cbiAgICB0eXBlPVwiYnV0dG9uXCJcbiAgPlxuICAgIHt0ZXh0IHx8ICdHZXQgc3RhcnRlZCd9XG4gIDwvYnV0dG9uPlxuKTtcblxuZXhwb3J0IGRlZmF1bHQgQmFzZTtcbiJdfQ== */\\",
+        }
       }
-    }
-    data-emotion="css 25suaw-Base"
-  />,
-  <button
-    className="css-25suaw-Base"
-    onClick={[Function]}
-    type="button"
-  >
-    Get started
-  </button>,
-]
+-     data-emotion=\\"css 1e31kni-Base\\"
++     data-emotion=\\"css 25suaw-Base\\"
+    />,
+    <button
+-     className=\\"css-1e31kni-Base\\"
++     className=\\"css-25suaw-Base\\"
+      onClick={[Function onClick]}
+      type=\\"button\\"
+    >
+      Get started
+    </button>,"
 `;
