@@ -43,6 +43,7 @@ module.exports = {
   root: true,
   rules: {
     'arrow-parens': 'off',
+    'func-names': 'error',
     'function-paren-newline': 'off',
     'implicit-arrow-linebreak': 'off',
     'import/extensions': 'off',
@@ -57,6 +58,7 @@ module.exports = {
     ],
     'no-alert': 'error',
     'no-console': 'error',
+    'no-constant-condition': 'error',
     'no-lonely-if': 'error',
     'no-prototype-builtins': 'off',
     'no-undef': 'off',
@@ -70,6 +72,7 @@ module.exports = {
     'react/jsx-props-no-spreading': 'off',
     'react/jsx-sort-props': 'error',
     'react/jsx-wrap-multilines': 'off',
+    'react/no-danger': 'error',
     'react/no-unescaped-entities': 'error',
     'react/no-unknown-property': 'error',
     'react/prop-types': 'error',
