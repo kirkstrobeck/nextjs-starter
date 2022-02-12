@@ -1,10 +1,12 @@
-export type Props = {
+const Base = ({
+  background,
+  text,
+  onClick,
+}: {
   background?: string;
   text?: string;
   onClick: (event: React.MouseEvent) => void;
-};
-
-const Base = ({ background, text, onClick }: Props) => (
+}) => (
   <button
     css={{
       background: background || 'blue',
