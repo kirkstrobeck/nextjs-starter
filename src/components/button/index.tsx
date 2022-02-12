@@ -4,8 +4,8 @@ const Base = ({
   onClick,
 }: {
   background?: string;
-  text?: string;
   onClick: (event: React.MouseEvent) => void;
+  text?: string;
 }) => (
   <button
     css={{

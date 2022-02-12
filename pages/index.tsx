@@ -1,5 +1,4 @@
 import BaseFrame from 'root/src/components/base-frame';
-
 import Button from 'root/src/components/button';
 import HydrationStatus from 'root/src/components/hydration-status';
 
