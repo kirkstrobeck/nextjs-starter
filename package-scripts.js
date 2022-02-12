@@ -5,7 +5,7 @@ const scripts = {
 
   lint: 'next lint',
 
-  'lint-fix': `${lint} --fix`,
+  'lint-fix': 'next lint --fix',
 
   start: 'next start',
 };
