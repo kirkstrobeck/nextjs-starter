@@ -1,5 +1,5 @@
 const scripts = {
-  build: 'next build',
+  build: 'NODE_ENV=production next build',
 
   dev: 'next dev',
 
@@ -10,4 +10,6 @@ const scripts = {
   start: 'next start',
 };
 
-module.exports = { scripts };
+module.exports = {
+  scripts,
+};
