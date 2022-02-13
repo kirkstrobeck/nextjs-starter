@@ -1,11 +1,13 @@
+const lint = "eslint --ignore-path .gitignore --ext .jsx,.js,.ts,.tsx '.'";
+
 const scripts = {
   build: 'NODE_ENV=production next build',
 
   dev: 'next dev',
 
-  lint: 'next lint',
+  lint,
 
-  lintFix: 'next lint --fix',
+  lintFix: `${lint} --fix`,
 
   start: 'next start',
 };
