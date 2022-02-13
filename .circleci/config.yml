@@ -1,0 +1,25 @@
+version: 2.1
+
+workflows:
+  main-workflow:
+    jobs:
+      - main-job
+
+jobs:
+  main-job:
+    working_directory: ~/repo
+
+    docker:
+      - image: circleci/node:14
+
+    steps:
+      - checkout
+
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "package.json" }}
+            - v1-dependencies-
+
+      - run: yarn
+
+      - run: yarn nps lint

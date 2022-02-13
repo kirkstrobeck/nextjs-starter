@@ -16,9 +16,9 @@ const Base = () => (
           boxSizing: 'inherit',
         },
 
-        boxSizing: 'inherit',
         MozOsxFontSmoothing: 'grayscale',
         WebkitFontSmoothing: 'antialiased',
+        boxSizing: 'inherit',
       },
 
       a: {
