@@ -1,19 +1,19 @@
-const eslint = "eslint --ignore-path .gitignore --ext .jsx,.js,.ts,.tsx '.'";
+const lint = "eslint --ignore-path .gitignore --ext .jsx,.js,.ts,.tsx '.'";
 
-const typeCheck = `tsc --noEmit`;
+const build = 'NODE_ENV=production next build';
 
 const scripts = {
-  build: 'NODE_ENV=production next build',
+  build,
+
+  ci: `concurrently "${lint}" "${build}"`,
 
   dev: 'next dev',
 
-  eslintFix: `${eslint} --fix`,
+  lint,
 
-  lint: `concurrently "${eslint}" "${typeCheck}"`,
+  lintFix: `${lint} --fix`,
 
   start: 'next start',
-
-  typeCheck,
 };
 
 module.exports = {
