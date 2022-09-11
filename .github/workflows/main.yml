@@ -1,0 +1,20 @@
+name: main
+
+on: push
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+
+    container: node:16
+
+    steps:
+      - name: set up nodejs
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16"
+          cache: "yarn"
+
+      - run: yarn --prefer-offline
+
+      - run: yarn nps lint
