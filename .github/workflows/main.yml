@@ -6,15 +6,16 @@ jobs:
   main:
     runs-on: ubuntu-latest
 
-    container: node:16
+    # container: node:16
 
     steps:
-      - name: set up nodejs
+      - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: "16"
           cache: "yarn"
 
-      - run: yarn --prefer-offline
+      - name: Install project dependencies
+        run: yarn --prefer-offline
 
       - run: yarn nps lint
