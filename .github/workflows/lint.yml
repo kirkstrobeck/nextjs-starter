@@ -7,7 +7,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: kirkstrobeck/nextjs-starter/.github/workflows/setup.yml@main
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "16"
+          cache: "yarn"
 
       - run: yarn --prefer-offline
 
