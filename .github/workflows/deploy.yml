@@ -1,0 +1,23 @@
+name: deploy
+
+on: pull_request
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: amondnet/vercel-action@v20
+
+        with:
+          # required
+          vercel-org-id: ${{ secrets.ORG_ID}}
+          vercel-project-id: ${{ secrets.PROJECT_ID}}
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+
+          # optional
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          # vercel-args: "--prod"
+          # working-directory: ./sub-directory
